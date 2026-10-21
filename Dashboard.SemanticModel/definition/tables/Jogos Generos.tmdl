@@ -1,0 +1,23 @@
+table 'Jogos Generos'
+	lineageTag: d0621b2d-0c92-4d53-b881-9c9e02ed31be
+
+	column AppID
+		dataType: int64
+		lineageTag: 0870a4fa-1eb9-4699-ab95-f763dc72fe2a
+		sourceColumn: AppID
+
+	column Genre
+		dataType: string
+		lineageTag: f2388ec1-38ae-4634-9f85-034c4e034f85
+		sourceColumn: Genre
+
+	partition 'Jogos Generos' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\Victor\Desktop\Projeto_Steam\jogos_generos.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"AppID", Int64.Type}, {"Genre", type text}})
+				in
+				    Tipos
+

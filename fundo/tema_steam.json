@@ -1,0 +1,77 @@
+{
+  "name": "Steam",
+  "dataColors": ["#1A8FE0", "#5E8F00", "#9468E0", "#D07A1E", "#66C0F4", "#A4D007", "#C3A6F5", "#F0A860"],
+  "foreground": "#C7D5E0",
+  "foregroundNeutralSecondary": "#8F98A0",
+  "foregroundNeutralTertiary": "#5E6B78",
+  "background": "#1B2838",
+  "backgroundLight": "#243447",
+  "backgroundNeutral": "#2A475E",
+  "tableAccent": "#66C0F4",
+  "good": "#A4D007",
+  "neutral": "#8F98A0",
+  "bad": "#E0533D",
+  "maximum": "#66C0F4",
+  "center": "#2A6A9E",
+  "minimum": "#1B2838",
+  "null": "#5E6B78",
+  "hyperlink": "#66C0F4",
+  "visitedHyperlink": "#66C0F4",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#C7D5E0" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#C7D5E0" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#8F98A0" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#1B2838" } }, "transparency": 100 }],
+        "border": [{ "show": false }],
+        "dropShadow": [{ "show": false }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#C7D5E0" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }],
+        "subTitle": [{ "fontColor": { "solid": { "color": "#8F98A0" } } }],
+        "visualHeader": [{ "background": { "solid": { "color": "#1B2838" } }, "foreground": { "solid": { "color": "#8F98A0" } }, "transparency": 100 }],
+        "visualTooltip": [{ "background": { "solid": { "color": "#171A21" } }, "titleFontColor": { "solid": { "color": "#8F98A0" } }, "valueFontColor": { "solid": { "color": "#FFFFFF" } } }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#8F98A0" } }, "titleColor": { "solid": { "color": "#8F98A0" } }, "gridlineShow": false }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#8F98A0" } }, "titleColor": { "solid": { "color": "#8F98A0" } }, "gridlineColor": { "solid": { "color": "#2A3F5A" } }, "gridlineThickness": 1 }],
+        "legend": [{ "labelColor": { "solid": { "color": "#C7D5E0" } }, "titleColor": { "solid": { "color": "#8F98A0" } } }],
+        "labels": [{ "color": { "solid": { "color": "#C7D5E0" } } }],
+        "categoryLabels": [{ "color": { "solid": { "color": "#8F98A0" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#171A21" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#0E141B" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#FFFFFF" } }, "fontSize": 28 }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#8F98A0" } }, "fontSize": 10 }]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "value": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "fontSize": 28 }],
+        "label": [{ "fontColor": { "solid": { "color": "#8F98A0" } } }],
+        "fillCustom": [{ "show": false }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [{ "fontColor": { "solid": { "color": "#C7D5E0" } }, "background": { "solid": { "color": "#1B2838" } } }],
+        "header": [{ "fontColor": { "solid": { "color": "#66C0F4" } } }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#66C0F4" } }, "backColor": { "solid": { "color": "#171A21" } } }],
+        "values": [{ "fontColorPrimary": { "solid": { "color": "#C7D5E0" } }, "backColorPrimary": { "solid": { "color": "#1B2838" } }, "fontColorSecondary": { "solid": { "color": "#C7D5E0" } }, "backColorSecondary": { "solid": { "color": "#202F42" } } }],
+        "grid": [{ "gridHorizontalColor": { "solid": { "color": "#2A3F5A" } }, "gridVerticalColor": { "solid": { "color": "#2A3F5A" } } }],
+        "total": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#171A21" } } }]
+      }
+    }
+  }
+}

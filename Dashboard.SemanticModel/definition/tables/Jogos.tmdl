@@ -1,0 +1,162 @@
+table Jogos
+	lineageTag: 4ac3096a-7309-4f96-8d10-9017fa1f3477
+
+	measure 'Qtd Jogos' = COUNTROWS(Jogos)
+		formatString: #,0
+		lineageTag: 69498d04-2768-4963-8dd5-030c43b2db0d
+
+	measure 'Avaliações Positivas' = SUM(Jogos[Positive])
+		formatString: #,0
+		lineageTag: 00560b7e-b14f-4c55-9785-ea68b3c2c5a1
+
+	measure 'Avaliações Negativas' = SUM(Jogos[Negative])
+		formatString: #,0
+		lineageTag: 365e527c-4631-4075-9aec-97f731bab44c
+
+	/// % positiva sobre a soma das avaliações: jogos com muitas avaliações pesam mais
+	measure '% Positivas' = DIVIDE([Avaliações Positivas], [Avaliações Positivas] + [Avaliações Negativas])
+		formatString: 0.0%
+		lineageTag: a25b8ca5-65ec-4437-8c7d-b7d0655a91a8
+
+	/// Soma do ponto médio das faixas de donos de cada jogo. Conta cópias, não pessoas: quem tem vários jogos entra várias vezes
+	measure 'Cópias Estimadas' = SUM(Jogos[Owners])
+		formatString: #,0
+		lineageTag: 1bbadb1f-859a-4a44-b610-0e0077c35602
+
+	measure 'Cópias Estimadas (Mediana)' = MEDIAN(Jogos[Owners])
+		formatString: #,0
+		lineageTag: d72fc7b5-634e-4f9e-80dc-95cd15fe7f8d
+
+	measure 'Jogos com 10+ Avaliações' = COUNTROWS(FILTER(Jogos, Jogos[Positive] + Jogos[Negative] >= 10))
+		formatString: #,0
+		lineageTag: bfd5dc27-eb86-4836-8757-8dedd45e691c
+
+	/// Mediana da % positiva de cada jogo, só jogos com 10+ avaliações
+	measure '% Positivas (Mediana por Jogo)' =
+			MEDIANX(
+			    FILTER(Jogos, Jogos[Positive] + Jogos[Negative] >= 10),
+			    DIVIDE(Jogos[Positive], Jogos[Positive] + Jogos[Negative])
+			)
+		formatString: 0.0%
+		lineageTag: af96b58c-1aa3-464a-941f-b20f6e757d65
+
+	/// Média de preço só dos jogos pagos: os gratuitos puxariam a média para baixo
+	measure 'Preço Médio (Pagos)' = CALCULATE(AVERAGE(Jogos[Price]), Jogos[Price] > 0)
+		formatString: "US$ "#,0.00
+		lineageTag: 396cb4a1-7564-42aa-b243-160c936dceed
+
+	measure '% Jogos Grátis' = DIVIDE(CALCULATE(COUNTROWS(Jogos), Jogos[Price] = 0), COUNTROWS(Jogos))
+		formatString: 0.0%
+		lineageTag: e306cf26-0428-4404-bfc8-c72362f8b30b
+
+	/// Jogos lançados em 2025, último ano completo da base
+	measure 'Lançamentos em 2025' = CALCULATE([Qtd Jogos], Jogos[Ano Lançamento] = 2025)
+		formatString: #,0
+		lineageTag: 407242d1-ffcc-4783-aad6-8260a9b12b3f
+
+	/// Preço do jogo pago típico: menos afetado por jogos muito caros que a média
+	measure 'Preço Mediano (Pagos)' = CALCULATE(MEDIAN(Jogos[Price]), Jogos[Price] > 0)
+		formatString: "US$ "#,0.00
+		lineageTag: 6ab12c6f-3786-419f-9f8f-50011f4eb86e
+
+	measure 'Total Avaliações' = [Avaliações Positivas] + [Avaliações Negativas]
+		formatString: #,0
+		lineageTag: 4e12fe8d-93ad-417a-bd42-0f5af3a296e5
+
+	/// Auxiliar do ranking de preço por gênero: ignora gêneros com menos de 100 jogos
+	measure 'Preço Médio (Gêneros 100+)' = IF([Qtd Jogos] >= 100, [Preço Médio (Pagos)])
+		formatString: "US$ "#,0.00
+		isHidden
+		lineageTag: b99fe858-3637-4f13-a563-3af11c6e2222
+
+	/// Auxiliar do ranking de jogos: só conta jogos com 1.000+ avaliações
+	measure '% Positivas (1.000+ Avaliações)' = IF([Total Avaliações] >= 1000, [% Positivas])
+		formatString: 0.0%
+		isHidden
+		lineageTag: 2322ca2e-95ff-4dac-b237-bca64245d269
+
+	/// Preço médio contando os grátis; com um jogo selecionado, é o preço dele
+	measure 'Preço Médio' = AVERAGE(Jogos[Price])
+		formatString: "US$ "#,0.00
+		lineageTag: 99adce6b-68c2-4490-bf58-ed6210b46491
+
+	/// Auxiliar do ranking de jogos mais mal avaliados
+	measure '% Negativas (1.000+ Avaliações)' = IF([Total Avaliações] >= 1000, DIVIDE([Avaliações Negativas], [Total Avaliações]))
+		formatString: 0.0%
+		isHidden
+		lineageTag: 07356fee-aeda-468d-af32-7a23da1b2aa7
+
+	column AppID
+		dataType: int64
+		lineageTag: 13a59f7a-0e8a-46d5-bf8a-92ee33c1b06d
+		sourceColumn: AppID
+
+	column Name
+		dataType: string
+		lineageTag: 9e737093-2c1e-456e-bc9a-b43b05bde043
+		sourceColumn: Name
+
+	column Price
+		dataType: double
+		lineageTag: 322bb3b9-e661-4ec2-bc8c-e4f5e8b5613b
+		sourceColumn: Price
+
+	column Positive
+		dataType: int64
+		lineageTag: 9007d422-a4ac-42f5-93db-5f8ecb4eb8e7
+		sourceColumn: Positive
+
+	column Negative
+		dataType: int64
+		lineageTag: c076b1db-c236-4edb-af66-5bdbd27a6c48
+		sourceColumn: Negative
+
+	column 'Owners min'
+		dataType: int64
+		lineageTag: eb715be1-360f-4503-8592-96e0687fa3bf
+		sourceColumn: Owners min
+
+	column 'Owners max'
+		dataType: int64
+		lineageTag: a1a18a18-9d1b-4154-9a1a-b3da37aa2172
+		sourceColumn: Owners max
+
+	column Owners
+		dataType: double
+		lineageTag: 62d2880f-ac84-463b-b17e-a4590d48535f
+		sourceColumn: Owners
+
+	column 'Tem donos'
+		dataType: boolean
+		lineageTag: 2967e590-78a9-42c0-9acf-3659fc5cb9b0
+		sourceColumn: Tem donos
+
+	column 'Release date'
+		dataType: dateTime
+		lineageTag: ec5602c3-06b5-4cb3-9f07-990858e67ff0
+		sourceColumn: Release date
+
+	column 'Ano Lançamento' = YEAR(Jogos[Release date])
+		formatString: 0
+		lineageTag: af770b71-30d6-4b62-8cb1-e76ca116c326
+		summarizeBy: none
+
+	column 'Faixa de Preço Ordem' = SWITCH(TRUE(), Jogos[Price] = 0, 1, Jogos[Price] < 5, 2, Jogos[Price] < 15, 3, Jogos[Price] < 30, 4, 5)
+		isHidden
+		lineageTag: 57855efb-5695-4069-a1e8-a97b73ce00ba
+		summarizeBy: none
+
+	column 'Faixa de Preço' = SWITCH(Jogos[Faixa de Preço Ordem], 1, "Grátis", 2, "Até US$ 5", 3, "US$ 5 a 15", 4, "US$ 15 a 30", "US$ 30+")
+		lineageTag: dc7641c4-7378-4623-9df8-a9f5a434fa4e
+		sortByColumn: 'Faixa de Preço Ordem'
+
+	partition Jogos = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("C:\Users\Victor\Desktop\Projeto_Steam\jogos.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cabecalho = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cabecalho, {{"AppID", Int64.Type}, {"Name", type text}, {"Price", type number}, {"Positive", Int64.Type}, {"Negative", Int64.Type}, {"Owners min", Int64.Type}, {"Owners max", Int64.Type}, {"Owners", type number}, {"Tem donos", type logical}, {"Release date", type date}}, "pt-BR")
+				in
+				    Tipos
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Fundo da página do Dashboard (1280x720). Gerado em PNG com o Chrome headless:
+     chrome --headless --screenshot=fundo_steam.png --window-size=1280,720 --force-device-scale-factor=2 fundo_steam.html -->
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif; color: #c7d5e0;
+    background:
+      radial-gradient(ellipse 900px 420px at 70% -80px, rgba(102,192,244,.16), transparent 70%),
+      radial-gradient(ellipse 700px 500px at 0% 110%, rgba(42,71,94,.45), transparent 70%),
+      linear-gradient(180deg, #1b2838 0%, #171d29 100%);
+    position: relative;
+  }
+
+  /* Cabeçalho no estilo da barra da loja */
+  .topo {
+    position: absolute; left: 0; top: 0; width: 1280px; height: 72px;
+    background: #171a21; display: flex; align-items: center; padding: 0 24px; gap: 14px;
+  }
+  .topo::after {
+    content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px;
+    background: linear-gradient(90deg, #1a8fe0, #66c0f4 40%, rgba(102,192,244,0) 100%);
+  }
+  .titulo { font-size: 21px; font-weight: 600; letter-spacing: 1.5px; color: #ffffff; line-height: 1.1; }
+  .titulo span { color: #66c0f4; }
+  .sub { font-size: 12px; color: #8f98a0; margin-top: 3px; letter-spacing: .3px; }
+
+  /* Área reservada para a segmentação de gênero, à direita do cabeçalho */
+  .filtro {
+    position: absolute; right: 24px; top: 16px; width: 340px; height: 40px;
+    background: #1b2838; border: 1px solid rgba(102,192,244,.25); border-radius: 3px;
+  }
+
+  /* Painéis onde entram os visuais */
+  .painel {
+    position: absolute; border-radius: 6px;
+    background: linear-gradient(180deg, rgba(42,71,94,.55) 0%, rgba(27,40,56,.7) 100%);
+    border: 1px solid rgba(102,192,244,.12);
+    box-shadow: 0 6px 18px rgba(0,0,0,.25);
+  }
+  .kpi::before {
+    content: ''; position: absolute; left: 0; top: 14px; bottom: 14px; width: 3px;
+    border-radius: 0 2px 2px 0; background: #66c0f4;
+  }
+
+  .rodape {
+    position: absolute; left: 24px; right: 24px; bottom: 6px;
+    font-size: 10px; color: #5e6b78; display: flex; justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+  <div class="topo">
+    <img src="logo_steam.svg" width="44" height="44" alt="">
+    <div>
+      <div class="titulo">ANÁLISE DE JOGOS DA <span>STEAM</span></div>
+      <div class="sub">117.432 jogos · 33 gêneros · avaliações e cópias por gênero</div>
+    </div>
+  </div>
+  <div class="filtro"></div>
+
+  <!-- Linha de cartões (4 x 296px) -->
+  <div class="painel kpi" style="left:24px;  top:92px; width:296px; height:88px"></div>
+  <div class="painel kpi" style="left:336px; top:92px; width:296px; height:88px"></div>
+  <div class="painel kpi" style="left:648px; top:92px; width:296px; height:88px"></div>
+  <div class="painel kpi" style="left:960px; top:92px; width:296px; height:88px"></div>
+
+  <!-- Dois gráficos (2 x 608px) -->
+  <div class="painel" style="left:24px;  top:196px; width:608px; height:496px"></div>
+  <div class="painel" style="left:648px; top:196px; width:608px; height:496px"></div>
+
+  <div class="rodape">
+    <div>Fonte: dados públicos da loja Steam</div>
+    <div>Projeto Steam · Power BI</div>
+  </div>
+</body>
+</html>

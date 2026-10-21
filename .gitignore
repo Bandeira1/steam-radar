@@ -1,0 +1,12 @@
+# Base bruta do Kaggle: grande demais para o GitHub (limite de 100 MB por arquivo)
+games.csv
+games.json
+
+# Arquivos locais do Power BI (cache de dados e configurações da sua máquina)
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Editor e Python
+.vscode/
+__pycache__/
+.ipynb_checkpoints/

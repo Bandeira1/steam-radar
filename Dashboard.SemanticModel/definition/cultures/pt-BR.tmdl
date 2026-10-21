@@ -1,0 +1,1977 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "jogo.positivas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "% Positivas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% positivas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage positiva": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct positiva": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "Avaliações positivas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Positivas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.qtd_jogos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Qtd Jogos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd jogos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Jogos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Jogos lançados": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.cópias_estimadas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Cópias Estimadas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cópias estimadas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.positivas_mediana_por_jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "% Positivas (Mediana por Jogo)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% positivas (mediana por jogo)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Positivas no jogo típico": {
+			            "State": "Generated",
+			            "Weight": 0.675
+			          }
+			        },
+			        {
+			          "Positivas (jogo típico)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.app_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "AppID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "app ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AppID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "app": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "app identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "app identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "app identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "app credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Jogo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "jogo.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "penalty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.positive": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Positive"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "positive": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "encouraging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "affirmative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "progressive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "up": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "upbeat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "activist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "clear": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "assured": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.negative": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Negative"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "negative": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "undesirable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "damaging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "downbeat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "depressing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "disapproving": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "discouraging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.owners_min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Owners min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "owners min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "owner min": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "owner minimum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.owners_max": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Owners max"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "owners max": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "owner max": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "owner maximum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.owner": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Owners"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "owner": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ownership": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "holder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "landlord": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "possessor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "proprietor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shareholder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "titleholder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.tem_dono": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Tem donos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tem dono": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.release_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Release date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "release moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "release period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "jogo.avaliações_positivas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Avaliações Positivas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avaliações positivas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.avaliações_negativas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Avaliações Negativas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avaliações negativas": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.cópias_estimadas_mediana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Cópias Estimadas (Mediana)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cópias estimadas (mediana)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cópias estimadas": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "jogo.jogos_com_10_avaliações": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Jogos com 10+ Avaliações"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogos com 10+ avaliações": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "jogos_genero": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos Generos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jogos genero": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "jogo genero": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "jogos_genero.app_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos Generos",
+			          "ConceptualProperty": "AppID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "app ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AppID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "app": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "app identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "app identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "app identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "app credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "jogos_genero.genre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos Generos",
+			          "ConceptualProperty": "Genre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "genre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Gênero": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogos.preço_médio_pagos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Preço Médio (Pagos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Preço médio (pagos)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Preço médio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogos.preço_mediano_pagos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Preço Mediano (Pagos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Preço mediano (pagos)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogos.jogos_grátis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "% Jogos Grátis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Jogos grátis": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogos.lançamentos_em_2025": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Lançamentos em 2025"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Lançados em 2025": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogos.total_avaliações": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Total Avaliações"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Avaliações": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Total de avaliações": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogos.preço_médio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "Preço Médio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Preço": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "jogos.negativas_1_000_avaliações": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Jogos",
+			          "ConceptualProperty": "% Negativas (1.000+ Avaliações)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Negativas": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "jogo_is_named_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.name": {
+			          "Target": {
+			            "Entity": "jogo.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Name": {
+			              "Role": "jogo.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_jogo"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_names"
+			        }
+			      ]
+			    },
+			    "jogo_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.price": {
+			          "Target": {
+			            "Entity": "jogo.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "jogo.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_jogo_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_prices"
+			        }
+			      ]
+			    },
+			    "jogo_is_released_on_release_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.release_date": {
+			          "Target": {
+			            "Entity": "jogo.release_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "jogo.release_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "jogo_are_released_on_release_dates"
+			        }
+			      ]
+			    },
+			    "jogo_has_positivas": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.positivas": {
+			          "Target": {
+			            "Entity": "jogo.positivas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.positivas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have__positivas"
+			        }
+			      ]
+			    },
+			    "jogo_has_qtd_jogos": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.qtd_jogos": {
+			          "Target": {
+			            "Entity": "jogo.qtd_jogos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.qtd_jogos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_qtd_jogos"
+			        }
+			      ]
+			    },
+			    "jogo_has_cópias_estimadas": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.cópias_estimadas": {
+			          "Target": {
+			            "Entity": "jogo.cópias_estimadas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.cópias_estimadas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_cópias_estimadas"
+			        }
+			      ]
+			    },
+			    "jogo_has_positivas_mediana_por_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.positivas_mediana_por_jogo": {
+			          "Target": {
+			            "Entity": "jogo.positivas_mediana_por_jogo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.positivas_mediana_por_jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have__positivas_mediana_por_jogo"
+			        }
+			      ]
+			    },
+			    "jogo_has_app_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.app_ID": {
+			          "Target": {
+			            "Entity": "jogo.app_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.app_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_app_ID"
+			        }
+			      ]
+			    },
+			    "jogo_has_positive": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.positive": {
+			          "Target": {
+			            "Entity": "jogo.positive"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.positive"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_positives"
+			        }
+			      ]
+			    },
+			    "jogo_has_negative": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.negative": {
+			          "Target": {
+			            "Entity": "jogo.negative"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.negative"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_negatives"
+			        }
+			      ]
+			    },
+			    "jogo_has_owners_min": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.owners_min": {
+			          "Target": {
+			            "Entity": "jogo.owners_min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.owners_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_owners_mins"
+			        }
+			      ]
+			    },
+			    "jogo_has_owners_max": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.owners_max": {
+			          "Target": {
+			            "Entity": "jogo.owners_max"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.owners_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_owners_maxes"
+			        }
+			      ]
+			    },
+			    "jogo_has_owner": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.owner": {
+			          "Target": {
+			            "Entity": "jogo.owner"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.owner"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_owners"
+			        }
+			      ]
+			    },
+			    "jogo_has_tem_dono": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.tem_dono": {
+			          "Target": {
+			            "Entity": "jogo.tem_dono"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.tem_dono"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_tem_donos"
+			        }
+			      ]
+			    },
+			    "jogo_has_release_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.release_date": {
+			          "Target": {
+			            "Entity": "jogo.release_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.release_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_release_dates"
+			        }
+			      ]
+			    },
+			    "jogo_has_avaliações_positivas": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.avaliações_positivas": {
+			          "Target": {
+			            "Entity": "jogo.avaliações_positivas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.avaliações_positivas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_avaliações_positivas"
+			        }
+			      ]
+			    },
+			    "jogo_has_avaliações_negativas": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.avaliações_negativas": {
+			          "Target": {
+			            "Entity": "jogo.avaliações_negativas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.avaliações_negativas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_avaliações_negativas"
+			        }
+			      ]
+			    },
+			    "jogo_has_cópias_estimadas_mediana": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.cópias_estimadas_mediana": {
+			          "Target": {
+			            "Entity": "jogo.cópias_estimadas_mediana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.cópias_estimadas_mediana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_cópias_estimadas_mediana"
+			        }
+			      ]
+			    },
+			    "jogo_has_jogos_com_10_avaliações": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          }
+			        },
+			        "jogo.jogos_com_10_avaliações": {
+			          "Target": {
+			            "Entity": "jogo.jogos_com_10_avaliações"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogo.jogos_com_10_avaliações"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_jogos_com_10_avaliações"
+			        }
+			      ]
+			    },
+			    "jogos_genero_has_genre": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos Generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogos_genero": {
+			          "Target": {
+			            "Entity": "jogos_genero"
+			          }
+			        },
+			        "jogos_genero.genre": {
+			          "Target": {
+			            "Entity": "jogos_genero.genre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogos_genero"
+			            },
+			            "Object": {
+			              "Role": "jogos_genero.genre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogos_generos_have_genres"
+			        }
+			      ]
+			    },
+			    "jogos_genero_has_jogo": {
+			      "Binding": {
+			        "ConceptualEntity": "Jogos Generos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "jogos_genero": {
+			          "Target": {
+			            "Entity": "jogos_genero"
+			          }
+			        },
+			        "jogo": {
+			          "Target": {
+			            "Entity": "jogo"
+			          },
+			          "Nouns": [
+			            {
+			              "app": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogos_genero"
+			            },
+			            "Object": {
+			              "Role": "jogo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogos_generos_have_jogo"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "jogo"
+			            },
+			            "Object": {
+			              "Role": "jogos_genero"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jogo_have_jogos_generos"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

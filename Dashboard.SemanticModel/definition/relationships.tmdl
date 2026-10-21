@@ -1,0 +1,5 @@
+relationship 'Jogos Generos_AppID_Jogos_AppID'
+	crossFilteringBehavior: bothDirections
+	fromColumn: 'Jogos Generos'.AppID
+	toColumn: Jogos.AppID
+
